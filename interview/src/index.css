@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: min(1080px, 100% - 3rem);
+  margin-inline: auto;
+  padding: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+form input {
+  width: 50%;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+  list-style-type: none;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+ul li {
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+ul li a {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.product {
+  max-width: min(1080px, 100% - 3rem);
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+.product p {
+  padding: 0.2rem 0;
+  min-width: 400px;
+  max-width: 600px;
+}
+.product p span {
+  font-weight: bold;
+}
